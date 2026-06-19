@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>02_data_viz</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>03_data_viz</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7822,7 +7822,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
@@ -7851,7 +7851,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">load_dotenv</span><span class="p">()</span>
@@ -7865,7 +7865,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>True</pre>
 </div>
@@ -7888,7 +7888,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">user</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'DB_USER'</span><span class="p">)</span>
@@ -7918,7 +7918,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">url</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span> <span class="k">as</span> <span class="n">conn</span><span class="p">:</span>
@@ -7958,7 +7958,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Transforma as query em texto para pandas</span>
@@ -7974,12 +7974,12 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Carrega no pandas as duas tabelas</span>
-<span class="n">df_raw_cad</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="n">query_story_cad</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
-<span class="n">df_raw_sales</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span> <span class="p">(</span><span class="n">query_store_sales</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+<span class="n">df_raw_cad</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="n">query_story_cad</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">url</span><span class="p">)</span>
+<span class="n">df_raw_sales</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span> <span class="p">(</span><span class="n">query_store_sales</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">url</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7990,7 +7990,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Verificação dos tipos do DataFrame</span>
@@ -8030,10 +8030,11 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">df_raw_cad</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Verifica se datasets estão de acordo com exemplos</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df_raw_cad</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df_raw_sales</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 </pre></div>
 </div>
@@ -8080,7 +8081,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Inner Join das duas tabelas</span>
@@ -8096,7 +8097,7 @@ dtype: object
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8200,10 +8201,10 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Cria uma cópia do Dataset Final</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Cria uma cópia do Dataset Final (original a partir desse ponto)</span>
 <span class="n">df2</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8215,7 +8216,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Transforma coluna DATE de objetct para datetime64</span>
@@ -8231,7 +8232,7 @@ dtype: object
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>STORE_CODE               int64
 STORE_NAME                 str
@@ -8252,7 +8253,7 @@ dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Filtra o dataset conforme condição: "Filtre o período dentro do intervalo fornecido: ['2019-10-01','2019-12-31']"</span>
@@ -8291,7 +8292,7 @@ dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Ajuste das colunas que vão ficar no dataset para analise do TM</span>
@@ -8309,7 +8310,7 @@ dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8394,7 +8395,7 @@ dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [89]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Copia para manipulação do dataset</span>
@@ -8409,7 +8410,7 @@ dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Agrupa por loja</span>
@@ -8425,7 +8426,7 @@ dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[96]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8599,12 +8600,12 @@ dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d7a476a0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d7a476a0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Calcula Ticket Médio</span>
@@ -8614,219 +8615,18 @@ dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>STORE_NAME</th>
-<th>BUSINESS_NAME</th>
-<th>SALES_VALUE</th>
-<th>SALES_QTY</th>
-<th>TM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Bahia</td>
-<td>Atacado</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Bangkok</td>
-<td>Posto</td>
-<td>8376271.00</td>
-<td>612968</td>
-<td>13.67</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Belem</td>
-<td>Proximidade</td>
-<td>20989553.37</td>
-<td>1365988</td>
-<td>15.37</td>
-</tr>
-<tr>
-<th>3</th>
-<td>Berlin</td>
-<td>Proximidade</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Buenos Aires</td>
-<td>Atacado</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>5</th>
-<td>Chicago</td>
-<td>Varejo</td>
-<td>21928421.28</td>
-<td>1412372</td>
-<td>15.53</td>
-</tr>
-<tr>
-<th>6</th>
-<td>Dubai</td>
-<td>Atacado</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>7</th>
-<td>Hong Kong</td>
-<td>Farma</td>
-<td>15039911.54</td>
-<td>570745</td>
-<td>26.35</td>
-</tr>
-<tr>
-<th>8</th>
-<td>London</td>
-<td>Farma</td>
-<td>19471788.15</td>
-<td>671638</td>
-<td>28.99</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Madri</td>
-<td>Farma</td>
-<td>24129399.10</td>
-<td>831168</td>
-<td>29.03</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Miami</td>
-<td>Posto</td>
-<td>8376271.00</td>
-<td>612968</td>
-<td>13.67</td>
-</tr>
-<tr>
-<th>11</th>
-<td>New York</td>
-<td>Proximidade</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>12</th>
-<td>Paris</td>
-<td>Proximidade</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>13</th>
-<td>Rio de Janeiro</td>
-<td>Farma</td>
-<td>27172082.37</td>
-<td>918336</td>
-<td>29.59</td>
-</tr>
-<tr>
-<th>14</th>
-<td>Roma</td>
-<td>Varejo</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>15</th>
-<td>Salvador</td>
-<td>Atacado</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>16</th>
-<td>Sao Paulo</td>
-<td>Varejo</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>17</th>
-<td>Sidney</td>
-<td>Posto</td>
-<td>8376271.00</td>
-<td>612968</td>
-<td>13.67</td>
-</tr>
-<tr>
-<th>18</th>
-<td>Tokio</td>
-<td>Varejo</td>
-<td>21213088.57</td>
-<td>1378476</td>
-<td>15.39</td>
-</tr>
-<tr>
-<th>19</th>
-<td>Vancouver</td>
-<td>Posto</td>
-<td>8376271.00</td>
-<td>612968</td>
-<td>13.67</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=760092ab">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Ajusta colunas que vão ficar no dataset finak</span>
 <span class="n">df_tm</span> <span class="o">=</span> <span class="n">df_tm</span><span class="p">[[</span><span class="s1">'STORE_NAME'</span><span class="p">,</span> <span class="s1">'BUSINESS_NAME'</span><span class="p">,</span> <span class="s1">'TM'</span><span class="p">]]</span>
 
 <span class="c1">#Renomeia colunas conforme tabela do case</span>
-
 <span class="n">df_tm</span> <span class="o">=</span> <span class="n">df_tm</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
     <span class="s1">'STORE_NAME'</span><span class="p">:</span>       <span class="s1">'Lojas'</span><span class="p">,</span>
     <span class="s1">'BUSINESS_NAME'</span> <span class="p">:</span>   <span class="s1">'Categoria'</span>
@@ -8852,7 +8652,7 @@ dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [102]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df_tm</span>
@@ -8866,7 +8666,7 @@ dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[102]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
